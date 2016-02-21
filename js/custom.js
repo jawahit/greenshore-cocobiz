@@ -31,7 +31,7 @@ $(window).ready(function(){
 
 		$(".anim-slider").animateSlider(
 				 	{
-				 		autoplay	:false,
+				 		autoplay	:true,
 				 		interval	:4000,
 				 		animations 	:
 						{
