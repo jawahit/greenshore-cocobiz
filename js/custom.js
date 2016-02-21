@@ -627,6 +627,23 @@ $(document).ready(function() {
 	});
 });
 
+/* cocopeat benefits  starts*/
+
+$('.my-flipster').flipster({
+	   style: 'carousel',
+	   loop:true,
+	   buttons:true,
+	   spacing: -0.5
+	 });
+
+$(".overlay").hover(
+        function() {
+            $(".overlay-desc").toggleClass("on");
+});
+/* cocopeat benefits  starts*/
+
+
+
 
 /* -----------------------------
 MailCimp Plugin Script

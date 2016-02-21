@@ -146,6 +146,16 @@
 	.single-pricing-wrap {
 		margin-bottom: 40px;
 	}
+
+	.row.main-msg {
+	  margin-right: 2% !important;
+	}
+
+	.anim-slide * {
+		text-indent: 100%;
+	 white-space: nowrap;
+	 overflow: hidden;
+	}
 }
 
 
@@ -207,6 +217,16 @@
 		#subscription-form  .input-email {
 		width: 320px;
 	}
+
+	.row.main-msg {
+		margin-right: 2% !important;
+	}
+
+	.anim-slide * {
+		text-indent: 100%;
+	 white-space: nowrap;
+	 overflow: hidden;
+	}
 }
 
 
@@ -222,6 +242,14 @@
 	#subscription-form  .input-email {
 		width: 250px;
 	}
+	.row.main-msg {
+	  margin-right: 2% !important;
+	}
+	.anim-slide * {
+		text-indent: 100%;
+	 white-space: nowrap;
+	 overflow: hidden;
+	}
 }
 
 
@@ -231,4 +259,5 @@
         width: 70%;
         /* either % (e.g. 60%) or px (400px) */
     }
+
 }

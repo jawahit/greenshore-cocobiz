@@ -1,0 +1,71 @@
+/*
+#186710
+#C0392B
+
+*/
+
+
+::-moz-selection {
+    color: #ffffff;
+    background: #186710;
+}
+
+::selection {
+    color: #ffffff;
+    background: #186710;
+}
+
+.btn-col,
+.project-details h5,
+.project-info h5 {
+border-color: #186710;
+color: #186710;
+}
+
+.btn-col:hover {
+/*color: #C0392B;*/
+color: #1b842f;
+}
+
+.section-title h3,
+.section-title h4,
+.step-no,
+.sub-steps .icon,
+.sub-steps .sub-text,
+.testimonial .happy-client,
+.client-photos .photo-hold, {
+border-color:#186710;
+}
+
+
+.step-no .no-inner,
+.site-name:hover,
+.project-details .details-list li .strong,
+.social-icons ul li a:hover {
+color:#186710;
+}
+.service-icon,.service-title,.section-title h3, .section-title h4 {
+  color: #EFB90E; //yellow
+}
+.color-scheme,.feature-title{
+  color:#186710; //Green
+}
+
+.site-name span,
+.photo-overlay h4 {
+background-color: #186710;
+}
+
+.photo-zoom:before {
+	border-color: rgba(0, 255, 255, 0) rgba(255, 0, 255, 0) rgba(231, 76, 60, 1) rgba(255, 255, 10, 0);
+
+}
+#section-services,#section-contact {
+  background-color:#186710;
+}
+#section-screenshots{
+  background-color:#f9f9f9;
+}
+.flipster__button {
+color: #000000;
+}
