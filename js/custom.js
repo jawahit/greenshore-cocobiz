@@ -32,7 +32,7 @@ $(window).ready(function(){
 		$(".anim-slider").animateSlider(
 				 	{
 				 		autoplay	:true,
-				 		interval	:4000,
+				 		interval	:7000,
 				 		animations 	:
 						{
 							0	: 	//Slide No1
