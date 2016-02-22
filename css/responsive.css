@@ -138,6 +138,16 @@ left: -133px;
 }
 }
 
+/*for desktop*/
+@media only screen and (min-width: 1027px){
+	/*.modal-content {
+		width: 100%;
+	}*/
+	.modal-content {
+		width: 148%;
+	left: -133px;
+	}
+}
 
 /* --------- Styles for Screen width Smaller than 767px -------- */
 @media only screen and (max-width: 767px) {
