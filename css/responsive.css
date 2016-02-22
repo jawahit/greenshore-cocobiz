@@ -33,15 +33,36 @@
 	.project-photo, .project-details {
 		margin-bottom: 60px;
 	}
+}
 
+/* --------- Styles for Screen width between 480px To 981px -------- */
+@media only screen and (min-width: 480px) and (max-width	: 981px) {
+	 .site-name {
+			font-size: 19px;
+			padding: 7px -6px;
+			margin-left: -61px;
+	}
+}
 
+/* --------- Styles for Screen width between 768px To 1023px -------- */
+@media only screen and (min-width: 985px) and (max-width	: 1200px) {
+	.site-name {
+		font-size: 21px;
+		padding: 7px -6px;
+		margin-left: -61px;
+	}
+}
+
+/* for large screens */
+@media only screen and (min-width: 1500px) {
+	.site-name {
+		padding: 7px -6px;
+		margin-left: -150px;
+	}
 }
 
 
-
-
-
-/* --------- Styles for Screen width between 768px To 1023px -------- */
+/* --------- Styles for Screen width between 768px To 1023px IPad potrait-------- */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 	/* Features */
 	.baraja-container {
@@ -62,8 +83,59 @@
 		display:none;
 	}
 
+	.site-name {
+    font-size: 16px;
+    padding: 7px -6px;
+    margin-left: -28px;
+  }
 
+	.anim-slide h2#beddingmsg1 {
+    font-size: 50px;
+    top: 50%;
+    left: 2%;
+  }
 
+ .anim-slider h3#mushroommsg{
+	 font-size: 39px;
+	 top: 63%;
+	 left: -4px;
+ }
+  .anim-slide.submsg{
+		top: 63%;
+		left: -10px;
+	}
+	.anim-slide h4#msg1 {
+    top: 50%;
+ }
+ .anim-slide h4#version {
+    top: 39%;
+}
+	/*.anim-slide h4#msg2,.anim-slide h4#msg3,.anim-slide h4#msg4,.anim-slide h4#msg5,.anim-slide h4#msg6 {
+    top: 175px;
+  }*/
+	/*.modal-content {
+		width: 148%;
+	left: -133px;
+	}*/
+
+	.modal-content {
+		width: 122%;
+	  left: -66px;
+	}
+
+}
+
+/*ipad lanscape*/
+@media only screen and (min-width: 1023px) and (max-width: 1025px) {
+.anim-slide h2#beddingmsg1 {
+    font-size: 50px;
+    top: 58%;
+    left: 13%;
+}
+.modal-content {
+	width: 148%;
+left: -133px;
+}
 }
 
 
@@ -156,10 +228,14 @@
 	 white-space: nowrap;
 	 overflow: hidden;
 	}
+	.site-name {
+		font-size: 20px;
+		padding: 7px 2px;
+  }
 }
 
 
-/* --------- Styles for Screen width Smaller than 480px -------- */
+/* --------- Styles for Screen width Smaller than 480px mobiles-------- */
 @media only screen and (max-width: 480px) {
 	/* Headings for mobile View */
 	h1 {
@@ -227,6 +303,17 @@
 	 white-space: nowrap;
 	 overflow: hidden;
 	}
+
+	.site-name {
+		font-size: 20px;
+		padding: 7px 2px;
+	}
+	.navbar-brand {
+		float: none;
+	}
+	.home {
+		min-height: 650px;
+	}
 }
 
 
@@ -250,14 +337,14 @@
 	 white-space: nowrap;
 	 overflow: hidden;
 	}
-}
-
-
-/*--- Bootstrap model ----------*/
-@media screen and (min-width: 768px) {
-    .modal-custom-size {
-        width: 70%;
-        /* either % (e.g. 60%) or px (400px) */
-    }
-
+	.site-name {
+		font-size: 16px;
+		padding: 7px 2px;
+	}
+	.navbar-brand {
+    float: none;
+  }
+	.home {
+    min-height: 650px;
+  }
 }

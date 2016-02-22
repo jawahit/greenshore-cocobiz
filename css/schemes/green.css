@@ -39,16 +39,17 @@ border-color:#186710;
 
 
 .step-no .no-inner,
-.site-name:hover,
 .project-details .details-list li .strong,
 .social-icons ul li a:hover {
 color:#186710;
 }
-.service-icon,.service-title,.section-title h3, .section-title h4 {
-  color: #EFB90E; //yellow
+.site-name:hover,.service-icon,.service-title,.section-title h3, .section-title h4 {
+  /*yellow*/
+  color: #EFB90E;
 }
 .color-scheme,.feature-title{
-  color:#186710; //Green
+  /*green*/
+  color:#186710;
 }
 
 .site-name span,
@@ -68,4 +69,34 @@ background-color: #186710;
 }
 .flipster__button {
 color: #000000;
+}
+
+/*----- Bootstrap color overrides ------*/
+.btn-primary {
+  /*color: #fff;*/
+    color: #EFB90E;
+  background-color: #186710;
+  border-color: #15560E;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    /*color: #fff;*/
+      color: #EFB90E;
+    background-color: #15560E;
+    border-color: #186710;
+}
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    z-index: 2;
+    /*color: #fff;*/
+    color: #EFB90E;
+    background-color: #186710;
+    border-color: #15560E;
+}
+.modal-content {
+   border-radius: 0px;
+}
+.btn {
+  border-radius: 0px;
+}
+.close ,.modal-title {
+    color: #186710;
 }

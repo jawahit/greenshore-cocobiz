@@ -639,6 +639,7 @@ $('.my-flipster').flipster({
 $(".overlay").hover(
         function() {
             $(".overlay-desc").toggleClass("on");
+						$(".see-more").toggleClass("display-block");
 });
 /* cocopeat benefits  starts*/
 
@@ -701,4 +702,16 @@ $(document).ready(function() {
 		e.preventDefault();
 	});
 
+});
+
+
+// collapse nav bar
+// ------------------
+$(window).resize(function() {
+  if ($(this).width() < 768) {
+    //do something
+		$('.nav a').on('click', function(){
+			$('.navbar-toggle').click() //bootstrap 3.x by Richard
+		});
+  }
 });
