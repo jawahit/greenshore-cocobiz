@@ -685,7 +685,7 @@ Contact form
 $(document).ready(function() {
 	'use strict';
 	$('form.contact-form').on('submit', function(e) {
-		$.post('contact/contact.php', $(this).serialize(), function(response) {
+		$.post('contact/subscribe.php', $(this).serialize(), function(response) {
 			if ($('.confirmation p').html() != "") {
 				$('.confirmation p').replaceWith('<p><span class="fa fa-check"></span></p>');
 			}
