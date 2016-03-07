@@ -11,7 +11,7 @@
 
 	// Submit subscriber data to MailChimp
 	// For parameters doc, refer to: http://apidocs.mailchimp.com/api/1.3/listsubscribe.func.php
-	$retval = $api->listSubscribe( $api,'831ab6ad71', $email, $message, 'html', false, true ,true, true);
+	$retval = $api->listSubscribe( '6784b478298a46ab36a612aa46b8b62d-us1','831ab6ad71', $email, $message, 'html', false, true ,true, true);
 
 	if ($api->errorCode){
 		echo "Error in sending message !!! Please try again";
