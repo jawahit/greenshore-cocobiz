@@ -1160,3 +1160,15 @@ blockquote {
 .font-size-10{
 	font-size: 10px;
 }
+
+.fontxlarge {
+    font-size: x-large;
+}
+.fontbold {
+    font-weight: 700;
+    font-size: large;
+}
+
+.color-white{
+	color: #fff;
+}
