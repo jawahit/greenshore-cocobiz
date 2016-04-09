@@ -49,7 +49,8 @@
 	.site-name {
 		font-size: 21px;
 		padding: 7px -6px;
-		margin-left: -61px;
+		margin-left: 0px;
+		/*margin-left: -61px;*/
 	}
 }
 
@@ -240,7 +241,8 @@ left: -133px;
 	}
 	.site-name {
 		font-size: 20px;
-		padding: 7px 2px;
+		padding: 7px 68px;
+			/*padding: 7px 2px;*/
   }
 }
 
